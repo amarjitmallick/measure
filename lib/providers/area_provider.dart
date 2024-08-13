@@ -53,19 +53,19 @@ class AreaProvider extends ChangeNotifier {
 
     Map<String, double> conversionFactors = {
       "Katha": 720.0,
-      "Acre": 43560.0,
+      "Acre": 43636.0,
       "Bigha": 14400.0,
-      "Shotangsho": 835.6,
-      "Ayutangsho": 4.3633,
+      "Shotangsho": 436.36,
+      "Ayutangsho": 4.3636,
       "Chotak": 45.0,
       "Kani": 17280.0,
-      "Square Gauge": 1.25,
-      "Square Chain": 43560.0,
+      "Square Gauge": 9.0,
+      "Square Chain": 4363.6,
       "Square Feet": 1.0,
       "Square Hand": 2.25,
-      "Square Link": 0.4356,
+      "Square Link": 432.0,
       "Gonda": 2.25,
-      "Square Meter": 10.7639,
+      "Square Meter": 10.78,
     };
 
     // Convert the value from the original unit to square feet (base unit)
